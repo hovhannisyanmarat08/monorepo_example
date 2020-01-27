@@ -17,7 +17,27 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "logger": [
+        "dist/logger"
+      ],
+      "logger/*": [
+        "dist/logger/*"
+      ],
+      "shared-services": [
+        "dist/shared-services"
+      ],
+      "shared-services/*": [
+        "dist/shared-services/*"
+      ],
+      "shared-components": [
+        "dist/shared-components"
+      ],
+      "shared-components/*": [
+        "dist/shared-components/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
